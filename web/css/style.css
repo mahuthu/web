@@ -1,0 +1,300 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300&display=swap');
+
+body {
+    line-height:1.0;
+    color: rgb(70, 67, 30);
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif
+
+}h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgb(61, 54, 6);
+}
+.title-sm {
+    font-size: 16px;
+    letter-spacing: 1px;
+ }
+ 
+ a {
+    font-weight: 700;
+    transition: all 0.4s ease;
+    text-decoration: none;
+ }
+ 
+ img {
+    width: 100%;
+ }
+ 
+ small {
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+ }
+ 
+ section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+ }
+
+
+.navbar .nav-link {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+} 
+.logo-text {
+    font-size: 22px;
+    text-transform:lowercase;
+    color: #17331e !important;
+}
+
+.navbar{
+    border-bottom: 1px solid rgb(25, 27, 25);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(140 15 15);
+}
+#home {
+    background: url(../img/nairobi1.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+ } 
+
+
+#home h1 {
+   font-weight: 700;
+}
+
+#home p {
+   max-width: 550px;
+   margin: 18px auto;
+}
+
+.btn {
+   font-weight: 700;
+   font-size: 12px;
+   text-transform: uppercase;
+   padding: 12px 28px;
+   border-radius: 0;
+}
+
+.btn-brand {
+   background-color: #79131bd8;
+   color: #fff;
+}
+
+.btn-brand:hover {
+   background-color: #680910;
+   color: #fff;
+}
+.section-intro {
+    text-align: center;
+    margin-bottom: 60px;
+ }
+ 
+ .section-intro .hline {
+    width: 100px;
+    height: 2px;
+    background-color: rgba(14, 80, 5, 0.1);
+    margin: 16px auto 0 auto;
+ }
+ #services{
+    background-color: rgba(211, 146, 146, 0.3)
+    
+ } 
+ 
+
+
+.icon-box {
+    width: 60px;
+    height: 60px;
+    background-color: #0e350e;
+    color: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    flex: none;
+ }
+
+ .portfolio-item {
+   overflow: hidden;
+   position: relative;
+}
+ .portfolio-item img,
+ .portfolio-item .portfolio-overlay {
+    transition: all 0.4s ease;
+ }
+
+.portfolio-overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(58, 94, 49, 0.9);
+   display: flex;
+   align-items: flex-end;
+   padding: 30px;
+   opacity: 0;
+}
+
+.portfolio-overlay h3,
+.portfolio-overlay h6 {
+   color: #fff;
+}
+
+.portfolio-item:hover .portfolio-overlay {
+   opacity: 1;
+}
+
+.portfolio-item:hover img {
+   transform: scale(1.1);
+}
+
+.team-member {
+   background-color:rgb(157, 117, 76)
+}
+
+.team-member.even {
+   background-color: rgb(160, 151, 84)
+}
+
+.team-member .hline {
+   width: 70px;
+   height: 2px;
+   margin: 16px auto;
+   background-color: rgba(255, 255, 255, 0.445);
+}
+
+.team-member .team-member-img img,
+.team-member .team-member-img .social-icons {
+   transition: all 0.4s ease;
+}
+
+.team-member .team-member-img {
+   position: relative;
+   overflow: hidden;
+}
+
+.team-member .team-member-img .social-icons {
+   width: 100%;
+   height: 60px;
+   background-color: rgb(80, 76, 42);
+   position: absolute;
+   bottom: -60px;
+   left: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.team-member .team-member-img .social-icons a {
+   width: 40px;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 2px solid rgba(255, 255, 255, 0.5);
+   font-size: 24px;
+   color: #fff;
+   border-radius: 100px;
+   margin-left: 4px;
+   margin-right: 4px;
+}
+
+.team-member .team-member-img .social-icons a:hover {
+   background-color: #fff;
+   color: rgb(46, 241, 225);
+}
+
+.team-member:hover .team-member-img .social-icons {
+   bottom: 0;
+}
+
+.team-member:hover img {
+   transform: translateY(-60px);
+}
+#testimonials img {
+   width: 65px;
+   height: 65px;
+   border-radius: 100px;
+   transition: all 0.4s ease;
+}
+
+#testimonials .nav-pills .nav-link.active {
+   background-color: transparent;
+}
+
+#testimonials .nav-pills .nav-link.active img {
+   transform: scale(1.3);
+}
+
+.review .stars {
+   color: #02771f;
+}
+
+.review p {
+   max-width: 720px;
+   margin: 24px auto;
+   font-style: italic;
+}
+
+#clients img {
+   height: 35px;
+}
+
+form .form-control {
+   border-radius: 0;
+}
+
+form .form-control:focus {
+   box-shadow: none;
+   border-color: #970909;
+}
+
+#cta {
+   background-color: #0e4d13cc;
+}
+
+
+.footer-top {
+   padding-top: 80px;
+   padding-bottom: 30px;
+}
+
+.footer-bottom {
+   padding-top: 30px;
+   padding-bottom: 30px;
+   border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+footer .footer-links a,
+footer .social-icons a {
+   color: #898fa1;
+}
+
+footer .social-icons a {
+   font-size: 24px;
+}
+
+footer .footer-links a {
+   display: block;
+   font-weight: 400;
+}
+
+footer .social-icons a:hover,
+footer .footer-links a:hover {
+   color: #b10909;
+}
+
